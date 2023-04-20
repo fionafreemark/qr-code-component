@@ -75,7 +75,7 @@ a:focus {
 }
 
 .qr-component {
-  height: calc(100vh - 2rem);
+  height: calc(100vh - 3rem);
   align-items: center;
 }
 
@@ -118,4 +118,5 @@ a:focus {
 /* FOOTER */
 footer {
   height: 2rem;
+  padding: 0.5rem 0;
 }
