@@ -57,6 +57,17 @@ p {
   color: #7D889E;
 }
 
+a {
+  text-decoration: none;
+  color: #1F314F;
+  transition: 300ms;
+}
+
+a:hover,
+a:focus {
+  background-color: white;
+}
+
 /* COMPONENT STYLES */
 
 .df {
@@ -64,7 +75,7 @@ p {
 }
 
 .qr-component {
-  height: 100vh;
+  height: calc(100vh - 2rem);
   align-items: center;
 }
 
@@ -102,4 +113,9 @@ p {
 
 .qr-text-body {
   margin: 0 16px;
+}
+
+/* FOOTER */
+footer {
+  height: 2rem;
 }
