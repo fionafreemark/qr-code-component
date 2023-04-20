@@ -36,13 +36,13 @@ img {
 
 /* TYPOGRAPHY */
 
-h3,
+h1,
 p {
   font-family: 'Outfit', sans-serif;
   text-align: center;
 }
 
-h3 {
+h1 {
   font-weight: 700;
   font-size: 2.2rem;
   line-height: 2.77rem;
